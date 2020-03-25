@@ -1,0 +1,17 @@
+{
+	"ulid": "01E49QXCFVBSZDPM3QSS66P15W",
+	"minTime": 1585159200000,
+	"maxTime": 1585166400000,
+	"stats": {
+		"numSamples": 308371,
+		"numSeries": 397,
+		"numChunks": 1985
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01E49QXCFVBSZDPM3QSS66P15W"
+		]
+	},
+	"version": 1
+}

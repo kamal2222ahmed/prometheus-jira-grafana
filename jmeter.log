@@ -1,0 +1,90 @@
+2020-03-21 19:53:14,044 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-03-21 19:53:14,107 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/user.properties
+2020-03-21 19:53:14,108 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/system.properties
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: Version 5.2.1
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: java.version=1.8.0_232
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: os.arch=x86_64
+2020-03-21 19:53:14,110 INFO o.a.j.JMeter: os.version=10.14.6
+2020-03-21 19:53:14,111 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-03-21 19:53:14,111 INFO o.a.j.JMeter: java.awt.headless=null
+2020-03-21 19:53:14,111 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-03-21 19:53:14,111 INFO o.a.j.JMeter: Available Processors =12
+2020-03-21 19:53:14,116 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-03-21 19:53:14,117 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-03-21 19:53:14,117 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2.1/libexec
+2020-03-21 19:53:14,117 INFO o.a.j.JMeter: user.dir  =/Users/syedahmed/QA/TIGERTEAM/PROJECT-DASHBOARDS/PROMETHEUS/FINESTRUCTURE.CO/prometheus-jira-grafana
+2020-03-21 19:53:14,117 INFO o.a.j.JMeter: PWD       =/Users/syedahmed/QA/TIGERTEAM/PROJECT-DASHBOARDS/PROMETHEUS/FINESTRUCTURE.CO/prometheus-jira-grafana
+2020-03-21 19:53:14,143 INFO o.a.j.JMeter: IP: 10.253.27.227 Name: bah5cg940197p.resource.ds.bah.com FullName: bah5cg940197p.resource.ds.bah.com
+2020-03-21 19:53:15,794 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-03-21 19:53:15,815 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-03-21 19:53:15,816 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-03-21 19:53:15,898 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-03-21 19:53:16,748 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-238f7a9ce7057d574591006a0a11d859-gui
+2020-03-21 19:53:17,468 WARN o.j.r.PluginManagerMenuItem: Failed to load plugin updates info
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_232]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946) ~[?:1.8.0_232]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316) ~[?:1.8.0_232]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310) ~[?:1.8.0_232]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639) ~[?:1.8.0_232]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223) ~[?:1.8.0_232]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037) ~[?:1.8.0_232]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965) ~[?:1.8.0_232]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064) ~[?:1.8.0_232]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367) ~[?:1.8.0_232]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395) ~[?:1.8.0_232]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379) ~[?:1.8.0_232]
+	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:499) ~[jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:494) ~[jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getJSON(JARSourceHTTP.java:152) ~[jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepositories(JARSourceHTTP.java:276) ~[jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepo(JARSourceHTTP.java:304) ~[jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:71) ~[jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-1.3.jar:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:397) ~[?:1.8.0_232]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302) ~[?:1.8.0_232]
+	at sun.security.validator.Validator.validate(Validator.java:262) ~[?:1.8.0_232]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330) ~[?:1.8.0_232]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237) ~[?:1.8.0_232]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:1.8.0_232]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621) ~[?:1.8.0_232]
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_232]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_232]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_232]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:392) ~[?:1.8.0_232]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302) ~[?:1.8.0_232]
+	at sun.security.validator.Validator.validate(Validator.java:262) ~[?:1.8.0_232]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330) ~[?:1.8.0_232]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237) ~[?:1.8.0_232]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:1.8.0_232]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621) ~[?:1.8.0_232]
+	... 24 more
+2020-03-21 19:53:18,537 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-21 19:53:18,538 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-21 19:53:18,538 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-21 19:53:18,538 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-21 19:53:18,538 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-21 19:53:18,539 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-21 19:53:18,815 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-03-21 19:53:18,815 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.2.1/libexec/bin/proxyserver.jks
+2020-03-21 19:53:19,003 INFO o.a.j.s.FileServer: Default base='/Users/syedahmed/QA/TIGERTEAM/PROJECT-DASHBOARDS/PROMETHEUS/FINESTRUCTURE.CO/prometheus-jira-grafana'
+2020-03-21 19:53:19,316 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-21 19:53:19,316 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-03-21 19:53:19,316 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-21 19:53:19,316 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
